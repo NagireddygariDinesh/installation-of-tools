@@ -1,0 +1,17 @@
+6. Install Required Jenkins Plugins 
+Install the Docker plugin in Jenkins: 
+1. Go to Jenkins Dashboard > Manage Jenkins > Manage Plugins > Available. 
+2. Search for "Docker" and install the Docker plugin. 
+7. Install and configure Sonarqube as a Docker container 
+1. Docker run –itd –name sonar –p 9000:9000 sonarqube 
+2. Check if the SonarQube container is running: 
+docker ps  
+3. Access the SonarQube web interface: 
+ Open a web browser and go to http://<your-server-ip>:9000 
+ The default login credentials are: 
+1. Username: admin 
+2. Password: admin 
+4. Log in to SonarQube using the default credentials. 
+ Change the default password 
+5. Create Sonar token for Jenkins: 
+Sonar Dashboard -> Administration -> MyAccount -> Security -> Create token 
