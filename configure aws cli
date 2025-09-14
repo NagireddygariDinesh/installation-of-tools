@@ -1,0 +1,5 @@
+3. AWS CLI Configuration 
+Configure AWS CLI to interact with AWS services: 
+aws configure 
+# Enter your AWS  
+Access Key ID, Secret Access Key, region, and output format when prompted 
